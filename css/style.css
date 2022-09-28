@@ -3,19 +3,38 @@
  * This CSS file defines the style for index.html
 */
 
-body {
-  background-color: #bababa;
+.mdl-layout__header-row {
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-  background-color: rgb(207, 207, 207);
-  color: hsl(0deg 0% 0%);
-  padding: 40px;
-  text-align: center;
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.myImage {
+  float: left;
+  padding: 50px;
+  padding-top: 0px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 100px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h5 {
@@ -24,8 +43,15 @@ h5 {
 }
 
 p {
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
-  text-align: left;
+  padding-top: 5pt;
+}
+
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
 }
 
 .center {
