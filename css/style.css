@@ -1,6 +1,6 @@
 /* Created by: Timothy Manwell
  * Created on: Sep 2022
- * This CSS file defines the style for index.html
+ * This CSS file defines the style for index.html and index4.html
 */
 
 .mdl-layout__header-row {
@@ -22,14 +22,14 @@
   opacity: 0.001;
 }
 
-.myImage {
+.my-image {
   float: left;
   padding: 50px;
   padding-top: 0px;
   padding-bottom: 5px;
 }
 
-.myImage2 {
+.my-image2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
