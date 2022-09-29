@@ -22,9 +22,11 @@
   opacity: 0.001;
 }
 
-body {
-  background-color: whitesmoke;
+.line {
+  padding: 5px;
+  background-color: grey;
 }
+
 
 .myImage {
   float: left;
@@ -32,6 +34,11 @@ body {
   padding-top: 0px;
   padding-bottom: 5px;
 }
+
+body {
+  background-color: whitesmoke;
+}
+
 
 h5 {
   font-family: Helvetica, Arial, sans-serif;
@@ -49,9 +56,4 @@ li {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   padding-top: 5px;
-}
-
-.line {
-  padding: 5px;
-  background-color: grey;
 }
