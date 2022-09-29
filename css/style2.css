@@ -1,6 +1,6 @@
 /* Created by: Timothy Manwell
  * Created on: Sep 2022
- * This CSS file defines the style for index.html
+ * This CSS file defines the style for index2.html
 */
 
 .mdl-layout__header-row {
@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: whitesmoke
 }
 
 .myImage {
@@ -33,19 +33,25 @@ body {
   padding-bottom: 5px;
 }
 
-h2 {
-  font-size: 100px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 h5 {
     font-family: Helvetica, Arial, sans-serif;
     text-align: left;
     font-size: 17px;
 }
 
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding-top: 5pt;
+}
+
 li {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 14px;
   padding-top: 5px;
+}
+
+.line {
+  padding: 5px;
+  background-color: grey;
 }
